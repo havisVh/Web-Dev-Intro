@@ -1,0 +1,42 @@
+/* use the element selector option to select body tag */
+body {
+  /* set background colour to black */
+  background-color: black;
+
+  /* set text color to white for visibility */
+  color: white;
+}
+
+/* select just one element to change the color */
+#counter_disp {
+  color: #5656f6;
+}
+
+/* --------- */
+
+button {
+  /* sets height and width */
+  width: 120px;
+  height: 50px;
+
+  /* sets font-size */
+  font-size: large;
+
+  /* sets text colour */
+  color: white;
+
+  /* sets background color */
+  background-color: #111;
+
+  /* sets the cursor to pointer */
+  cursor: pointer;
+
+  /* adds a transition timer to hover state */
+  transition: 200ms;
+}
+
+/* adds a hover effect for style */
+button:hover {
+  background-color: #5656f6;
+  color: #000;
+}
